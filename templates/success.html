@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <script>
+      function success() {
+        window.alert("Ordered Successfully !!");
+      }
+    </script>
+    <link rel="stylesheet" href={{url_for('static', filename='css/home.css')
+    }} />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- <form action="/orders" method = "POST" onsubmit="return validate()">
+    <p>Address Line 1: <input type="text" name="address1"></p>
+    <p>Address Line 2: <input type="text" name="address2"></p>
+    <p>Zipcode: <input type="text" name="zipcode"></p>
+    <p><input type="submit" onclick="success()" value="Confirm Order"></p>
+    </form> -->
+    <section class="succ-wrapper">
+        <form action="/success"  onsubmit="return validate()">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Address 1:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputEmail1"
+              name="address1"
+              aria-describedby="emailHelp"
+              placeholder="Enter Address1"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Address 2:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputEmail1"
+              name="address2"
+              aria-describedby="emailHelp"
+              placeholder="Enter Address2"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">ZipCode</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputEmail1"
+              name="zipcode"
+              aria-describedby="emailHelp"
+              placeholder="Enter ZipCode"
+            />
+          </div>
+          <div class="custom-control custom-radio">
+                <h5>Payment Methods</h5>
+                  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio1">Cash on Delivery</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio2">Card on delivery</label>
+                </div>
+          <button
+            type="submit"
+            class="btn btn-success"
+            onclick="success()"
+            value="Confirm Order"
+          >
+            Confirm Order
+          </button>
+        </form>
+    </section>
+  </body>
+</html>

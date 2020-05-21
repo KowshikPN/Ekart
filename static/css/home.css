@@ -1,0 +1,153 @@
+
+#itemImage {
+	height: 200px;
+	width: 150px;
+	float: left;
+	clear: both;
+}
+
+/* .display {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+} */
+.displayCategory ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+.nav-wrapper {
+	background: #333;
+	color: #fff;
+	padding: 10px 10px;
+	box-shadow: 0 0 10px 1px #333;
+}
+.displayCategory ul li {
+	font-size: 18px;
+	display: inline-block;
+}
+.displayCategory ul li {
+	font-size: 20px;
+	margin-right: 10px;
+}
+table {
+	border-spacing: 20px;
+}
+
+#productName {
+	text-align: center;
+	font-weight: bold;
+}
+
+#productPrice {
+	text-align: center;
+}
+
+.displayCategory ul li {
+	font-size: 14px;
+}
+
+.displayCategory ul li a:hover{
+	color: #fca601;
+}
+.table td {
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.display h2 {
+	border-bottom: 1px solid #999;
+	padding: 10px 0;
+	margin: 0 0 20px 0;
+}
+.login-wrapper, .succ-wrapper, .chp {
+	width: 400px;
+	display: block;
+	margin: 80px auto 0;
+	border: 2px solid #ccc;
+	padding: 20px;
+	box-shadow: 0 0 10px 0 #999;
+}
+.register-wrapper {
+	width: 800px;
+	display: block;
+	margin: 40px auto 0;
+	border: 2px solid #ccc;
+	padding: 20px;
+	box-shadow: 0 0 10px 0 #999;
+	height: auto;
+	overflow: auto;
+}
+.register-wrapper .form-group {
+	width: 50%;
+	float: left;
+	padding: 0 10px;
+}
+.form-group.btn-handle {
+	padding-top: 30px;
+}
+.dropdown {
+	float: right !important;
+	padding: 0 30px;
+	z-index: 1;
+}
+.container-fluid {
+	clear: both;
+}
+.pdt_img {
+	width: 400px;
+	height: 400px;
+	float: left;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+#addToCart, #productDescription {
+	float: left;
+	width: 50%;
+	margin-top: 40px;
+	border: 1px solid #ccc;
+	padding: 20px;
+	box-shadow: 0 0 10px 0 #ddd;
+}
+.display.editprofile {
+	clear: both;
+	width: 500px;
+	display: block;
+	margin: 0px auto 0;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px 0 #ccc;
+	padding: 10px;
+}
+.editprofile p input, 
+.chp p input {
+	float: right;
+	width: 360px;
+	border-radius: 4px;
+	padding: 3px;
+	border: 1px solid #999;
+}
+.editprofile p,
+.chp p {
+	margin: 15px 0;
+	display: inline-block;
+	width: 100%;
+}
+.logo {
+	position: relative;
+}
+.brand {
+	position: absolute;
+	font-size: 40px;
+	color: #fff;
+	text-decoration: navajowhite;
+	left: calc(50% - 60px);
+	top: 0px;
+	font-weight: bold;
+	text-shadow: 0 1px 1px #333;
+	width: 120px;
+}
+.brand:hover {
+	color: #fca601;
+}

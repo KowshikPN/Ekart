@@ -1,0 +1,166 @@
+<html>
+  <head>
+    <title>Registration</title>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename = 'js/validateForm.js') }}"
+    ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href={{ url_for('static', filename='css/home.css') }} />
+  </head>
+  <body>
+    <!-- <form action="/register" method="POST" onsubmit="return validate()">
+      <p>Email: <input type="email" name="email" /></p>
+
+      <p>
+        Password:
+        <input type="password" name="password" id="password" required />
+      </p>
+
+      <p>
+        Confirm Password:
+        <input type="password" name="cpassword" id="cpassword" />
+      </p>
+
+      <p>First Name: <input type="text" name="firstName" /></p>
+      <p>Last Name: <input type="text" name="lastName" /></p>
+      <p>Address Line 1: <input type="text" name="address1" /></p>
+      <p>Address Line 2: <input type="text" name="address2" /></p>
+      <p>Zipcode: <input type="text" name="zipcode" /></p>
+      <p>City: <input type="text" name="city" /></p>
+      <p>State: <input type="text" name="state" /></p>
+      <p>Country: <input type="text" name="country" /></p>
+      <p>Phone Number: <input type="text" name="phone" /></p>
+
+      <p><input type="submit" value="Register" /></p>
+
+      <a href="/loginForm">Login here</a> -->
+      <section class="register-wrapper">
+          <form action="/register" method="POST" onsubmit="return validate()">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                name="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input
+                name="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Confirm Password</label>
+              <input
+                name="cpassword"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">First Name</label>
+              <input
+                name="firstName"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Last Name</label>
+              <input
+                name="lastName"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Address Line 1</label>
+              <input
+                name="address1"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Address Line 2</label>
+              <input
+                name="address2"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Zipcode</label>
+              <input
+                name="city"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">City</label>
+              <input
+                name="address1"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">State</label>
+              <input
+                name="state"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Country</label>
+              <input
+                name="country"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Address Line 1</label>
+              <input
+                name="address1"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Phone Number</label>
+              <input
+                name="phone"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group btn-handle">
+
+                <button type="submit" class="btn btn-primary">Register</button>  
+                <a href="/loginForm" class="btn btn-success">Login Here</a>
+            </div>
+          </form>
+      </section>
+  </body>
+</html>

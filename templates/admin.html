@@ -1,0 +1,34 @@
+<html>
+    <head><title>Admin Page</title>
+    </head>
+    <body>
+        <form action="/addproduct" method="post">
+            <input type="text" name="productname">
+            <input type="number" name="price">
+            <input type="textarea" name="description">
+            <input type="file" name="image" accept="image/*">
+            <input type="number" name="stock">
+            <select name="category">
+                    <option value="1">Mobile Phones</option>
+                    <option value="2">Accessories</option>
+                    <option value="3">Laptops</option>
+            <button type="submit" value="Add Product"></button>
+        </form>
+        <h2>Products Out of Stock</h2>
+        <table>
+            <tr><th>ProductID</th>
+            <th>ProductName</th>
+            </tr>
+            <td></td>
+        </table>
+
+        <form action="/updatestock" method="post">
+        
+        
+        </form>
+
+
+            <button type="submit" value="Update Stock"></button>
+        </form>
+    </body>
+</html>

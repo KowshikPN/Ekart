@@ -1,0 +1,86 @@
+
+#tableItems {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0;
+	margin: 20px 0;
+}
+#itemImage {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 100px;
+	float: left;
+}
+
+#itemName {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 100px;
+	width: 200px;
+	float: left;
+}
+
+#titleName {
+	width: 200px;
+	float: left;
+}
+
+#titlePrice {
+	float: left;
+}
+
+#itemPrice {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 100px;
+	display: inline-block;
+}
+
+#image {
+	height: 100px;
+	width: 80px;
+}
+
+#seperator {
+	margin: 0px;
+	max-width: 400px;
+}
+
+#total {
+	text-align: right;
+	clear: both;
+	width: 100%;
+	border-top: 2px solid #333;
+}
+.linetime {
+	display: inline-block;
+	width: 100%;
+}
+
+#itemNameTag {
+	font-weight: bold;
+}
+
+#subtotal {
+	font-weight: bold;
+	font-size: 20px;
+}
+.cart-wrapper {
+	clear: both;
+}
+#cartItems {
+	display: block;
+	margin: 0px auto 0px;
+	width: 530px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0 0 10px 0 #ccc;
+}
+
